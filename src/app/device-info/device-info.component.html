@@ -1,0 +1,13 @@
+
+<div fxFlex="20" class="example-card" *ngFor="let state of statewise">
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title>{{state.state}}</mat-card-title>
+      </mat-card-header>
+     <mat-card-content>
+        <p>Active Cases - {{state.active}}</p>
+        <p>Deaths - {{state.deaths}}</p>
+        <p>Recovered - {{state.deltarecovered}}</p>
+      </mat-card-content>
+    </mat-card>
+  </div>

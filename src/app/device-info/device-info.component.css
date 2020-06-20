@@ -1,0 +1,12 @@
+.example-card {
+    max-width: 100%;
+    margin: 4px;
+    background-color: white;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 50;
+    font-family: 'Courier New', Courier, monospace;
+    color:wheat;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR14vRX2BVWD2hH-IueNjEwacZO30rG3M2mUGQCLhApSezLfXtG&usqp=CAU');
+
+  }
